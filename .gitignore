@@ -13,3 +13,6 @@ hs_err_pid*
 
 # mvn cache
 .mvn
+
+# only build artifacts are under "target", so ignore them all
+target/*
