@@ -2,4 +2,5 @@
 applications:
 - name: spring-app-crdant
   buildpack: java_buildpack_offline
+  path: target/spring-app-crdant-0.0.1-SNAPSHOT.jar
   instances: 1
